@@ -13,7 +13,21 @@ from typing import Dict, Any, Optional, List
 from professional_risk_analyzer import ProfessionalRiskAnalyzer
 from smart_money_tracker import SmartMoneyTracker
 from whale_portfolio_tracker import analyze_whale_portfolio_api, get_alpha_discoveries_api, cleanup_whale_portfolio_tracker
-from flow_prediction_engine import FlowPredictionEngine, analyze_flow_prediction, analyze_market_forecast, analyze_timing_optimization, detect_whale_activity
+try:
+    from flow_prediction_engine import FlowPredictionEngine, analyze_flow_prediction, analyze_market_forecast, analyze_timing_optimization, detect_whale_activity
+    FLOW_PREDICTION_AVAILABLE = True
+except ImportError as e:
+    print(f"⚠️ Flow Prediction Engine not available: {e}")
+    FLOW_PREDICTION_AVAILABLE = False
+    # Fallback dummy functions
+    def analyze_flow_prediction(*args, **kwargs):
+        return {"error": "Flow Prediction Engine not available", "message": "numpy dependency missing"}
+    def analyze_market_forecast(*args, **kwargs):
+        return {"error": "Market Forecast not available", "message": "numpy dependency missing"}
+    def analyze_timing_optimization(*args, **kwargs):
+        return {"error": "Timing Analysis not available", "message": "numpy dependency missing"}
+    def detect_whale_activity(*args, **kwargs):
+        return {"error": "Whale Signals not available", "message": "numpy dependency missing"}
 
 app = FastAPI(
     title="Solana Memecoin Risk Analyzer + Smart Money + Whale Portfolio + Flow Prediction",
