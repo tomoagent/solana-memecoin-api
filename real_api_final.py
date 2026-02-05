@@ -170,7 +170,7 @@ async def real_analyze_memecoin(request: AnalysisRequest):
         # Format for API response
         response_data = format_analysis_response(analysis_result)
         
-        print(f"✅ REAL analysis completed in {analysis_result['analysis_duration']}s - Risk: {analysis_result['risk_score']}/100")
+        print(f"✅ REAL analysis completed in {analysis_result['analysis_metadata']['analysis_duration']}s - Risk: {analysis_result['risk_score']}/100")
         
         return response_data
         
