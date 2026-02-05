@@ -30,9 +30,9 @@ except ImportError as e:
         return {"error": "Whale Signals not available", "message": "numpy dependency missing"}
 
 app = FastAPI(
-    title="Solana Memecoin Risk Analyzer + Smart Money + Whale Portfolio + Flow Prediction",
-    description="Professional memecoin risk analysis with live data + Smart Money whale tracking + Complete Whale Portfolio Analysis and Alpha Discovery + AI-Powered Flow Prediction Engine - PRODUCTION READY",
-    version="3.3.0"
+    title="🚀 SOLANA MEMECOIN ANALYZER ULTIMATE v3.3.0 + FLOW PREDICTION ENGINE 🚀",
+    description="🔥 NANSEN-KILLER ULTIMATE: Professional Risk Analysis + Smart Money + Whale Portfolio + AI-Powered Flow Prediction Engine - CACHE BUSTED v3.3.0 🔥",
+    version="3.3.0-FLOW-ULTIMATE-DEPLOY"
 )
 
 # Initialize the professional risk analysis engine
