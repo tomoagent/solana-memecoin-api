@@ -40,7 +40,7 @@ class RealAnalysisResponse(BaseModel):
     risk_factors: Dict[str, Any]
     data_sources: list
     analysis_timestamp: str
-    analysis_duration: float
+    analysis_metadata: Dict[str, Any]  # Contains analysis_duration and other metadata
 
 @app.get("/")
 async def root():
