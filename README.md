@@ -2,6 +2,8 @@
 
 Professional memecoin risk analysis API with comprehensive security checks and investment recommendations.
 
+*Deploy trigger: 2026-02-06 06:15 JST*
+
 ## 🔥 Features
 
 - **Real-time Risk Analysis**: Comprehensive risk scoring (0-100)
