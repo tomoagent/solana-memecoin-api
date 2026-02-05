@@ -1,7 +1,7 @@
 """
-Solana Memecoin Risk Analyzer - FINAL PRODUCTION VERSION + SMART MONEY + WHALE PORTFOLIO TRACKER
-Real implementation with rugcheck.xyz + DexScreener + intelligent risk analysis + Smart Money detection + Whale Portfolio Analysis
-Version 3.2 - The Complete Suite with Whale Portfolio Intelligence
+Solana Memecoin Risk Analyzer - FINAL PRODUCTION VERSION + SMART MONEY + WHALE PORTFOLIO + FLOW PREDICTION
+Real implementation with rugcheck.xyz + DexScreener + intelligent risk analysis + Smart Money detection + Whale Portfolio Analysis + Advanced Flow Prediction Engine
+Version 3.3 - The Ultimate Nansen-Killer Suite with AI-Powered Flow Prediction
 """
 
 from fastapi import FastAPI, HTTPException
@@ -13,11 +13,12 @@ from typing import Dict, Any, Optional, List
 from professional_risk_analyzer import ProfessionalRiskAnalyzer
 from smart_money_tracker import SmartMoneyTracker
 from whale_portfolio_tracker import analyze_whale_portfolio_api, get_alpha_discoveries_api, cleanup_whale_portfolio_tracker
+from flow_prediction_engine import FlowPredictionEngine, analyze_flow_prediction, analyze_market_forecast, analyze_timing_optimization, detect_whale_activity
 
 app = FastAPI(
-    title="Solana Memecoin Risk Analyzer + Smart Money + Whale Portfolio Tracker",
-    description="Professional memecoin risk analysis with live data + Smart Money whale tracking + Complete Whale Portfolio Analysis and Alpha Discovery",
-    version="3.2.0"
+    title="Solana Memecoin Risk Analyzer + Smart Money + Whale Portfolio + Flow Prediction",
+    description="Professional memecoin risk analysis with live data + Smart Money whale tracking + Complete Whale Portfolio Analysis and Alpha Discovery + AI-Powered Flow Prediction Engine",
+    version="3.3.0"
 )
 
 # Initialize the professional risk analysis engine
@@ -41,6 +42,20 @@ class WhalePortfolioRequest(BaseModel):
 class AlphaDiscoveryRequest(BaseModel):
     limit: Optional[int] = 10
 
+# Flow Prediction Engine Request Models
+class FlowPredictionRequest(BaseModel):
+    contract_address: str
+
+class MarketForecastRequest(BaseModel):
+    contract_address: str
+    timeframe: Optional[str] = "24h"  # 1h, 4h, 24h, 7d
+
+class TimingAnalysisRequest(BaseModel):
+    contract_address: str
+
+class WhaleSignalsRequest(BaseModel):
+    contract_address: str
+
 class RealAnalysisResponse(BaseModel):
     contract_address: str
     analysis_status: str
@@ -62,15 +77,19 @@ class RealAnalysisResponse(BaseModel):
 @app.get("/")
 async def root():
     return {
-        "service": "Solana Memecoin Risk Analyzer + Smart Money + Whale Portfolio Tracker", 
-        "version": "3.2.0",
-        "status": "PRODUCTION READY",
-        "price": "Professional Grade - $249/month",
+        "service": "Solana Memecoin Risk Analyzer + Smart Money + Whale Portfolio + Flow Prediction", 
+        "version": "3.3.0",
+        "status": "PRODUCTION READY - NANSEN KILLER",
+        "price": "Professional Grade - $499/month",
         "features": [
             "🔍 Live rugcheck.xyz integration",
             "📊 Real-time DexScreener market data", 
             "🧠 Intelligent 5-factor risk analysis",
             "🐋 Smart Money whale tracking",
+            "🔮 AI-Powered Flow Prediction (24h/7d)",
+            "📈 Advanced Market Forecasting",
+            "⏰ Optimal Entry/Exit Timing Analysis",
+            "🚨 Real-time Whale Signal Detection",
             "💼 Complete whale portfolio analysis",
             "🎯 Alpha discovery engine",
             "📈 Narrative signal detection",
@@ -83,7 +102,8 @@ async def root():
             "DexScreener - Real-time market data",
             "Solscan - Holder distribution data",
             "Smart Money Database - Whale wallet tracking",
-            "Whale Portfolio Engine - Complete holdings analysis"
+            "Whale Portfolio Engine - Complete holdings analysis",
+            "Flow Prediction Engine - AI-powered flow forecasting"
         ],
         "risk_factors": [
             "Liquidity Risk (30 points) - LP locks and burns",
@@ -109,11 +129,25 @@ async def root():
             "🔍 Risk profile analysis",
             "⚡ Real-time portfolio monitoring"
         ],
+        "flow_prediction_features": [
+            "🔮 24h/7d whale flow prediction",
+            "📊 Predicted price movements",
+            "🧠 Flow confidence scoring",
+            "⚡ Entry/exit timing optimization",
+            "🎯 Risk-adjusted scoring",
+            "📈 Market forecasting (1h-7d)",
+            "🚨 Whale signal detection",
+            "💰 Position size recommendations"
+        ],
         "endpoints": {
             "demo": "/demo",
             "risk_analysis": "/analyze", 
             "smart_money": "/smart-money",
-            "combined_analysis": "/analyze?include_smart_money=true"
+            "combined_analysis": "/analyze?include_smart_money=true",
+            "flow_prediction": "/flow-prediction",
+            "market_forecast": "/market-forecast",
+            "timing_analysis": "/timing-analysis",
+            "whale_signals": "/whale-signals"
         }
     }
 
@@ -121,13 +155,17 @@ async def root():
 async def health():
     return {
         "status": "healthy",
-        "version": "3.2.0",
+        "version": "3.3.0",
         "features_active": {
             "rugcheck_integration": True,
             "dexscreener_api": True,
             "risk_analysis_engine": True,
             "smart_money_tracker": True,
             "whale_detection": True,
+            "flow_prediction_engine": True,
+            "market_forecasting": True,
+            "timing_optimization": True,
+            "whale_signal_detection": True,
             "whale_portfolio_tracker": True,
             "alpha_discovery_engine": True,
             "narrative_analysis": True,
@@ -606,6 +644,119 @@ async def comprehensive_analysis(request: AnalysisRequest):
         raise HTTPException(status_code=500, detail=f"Analysis failed: {str(e)}")
 
 # ==================== END WHALE PORTFOLIO ENDPOINTS ====================
+
+# ==================== FLOW PREDICTION ENGINE ENDPOINTS ====================
+
+@app.post("/flow-prediction")
+async def flow_prediction_endpoint(request: FlowPredictionRequest):
+    """
+    AI-Powered Flow Prediction Analysis
+    Predicts 24h/7d whale flows, price movements, and optimal timing
+    """
+    try:
+        start_time = time.time()
+        
+        # Perform flow prediction analysis
+        prediction_result = await analyze_flow_prediction(request.contract_address)
+        
+        # Calculate response time
+        analysis_duration = time.time() - start_time
+        
+        return {
+            "flow_prediction": prediction_result,
+            "analysis_metadata": {
+                "analysis_duration": round(analysis_duration, 3),
+                "api_version": "3.3.0",
+                "feature": "flow_prediction"
+            }
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Flow prediction failed: {str(e)}")
+
+@app.post("/market-forecast")
+async def market_forecast_endpoint(request: MarketForecastRequest):
+    """
+    Advanced Market Forecasting
+    Predicts price movements, volatility, and market sentiment
+    """
+    try:
+        start_time = time.time()
+        
+        # Perform market forecast analysis
+        forecast_result = await analyze_market_forecast(request.contract_address, request.timeframe)
+        
+        # Calculate response time
+        analysis_duration = time.time() - start_time
+        
+        return {
+            "market_forecast": forecast_result,
+            "analysis_metadata": {
+                "analysis_duration": round(analysis_duration, 3),
+                "api_version": "3.3.0",
+                "feature": "market_forecast"
+            }
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Market forecast failed: {str(e)}")
+
+@app.post("/timing-analysis")
+async def timing_analysis_endpoint(request: TimingAnalysisRequest):
+    """
+    Optimal Entry/Exit Timing Analysis
+    Determines best timing for entries, exits, and position sizing
+    """
+    try:
+        start_time = time.time()
+        
+        # Perform timing analysis
+        timing_result = await analyze_timing_optimization(request.contract_address)
+        
+        # Calculate response time
+        analysis_duration = time.time() - start_time
+        
+        return {
+            "timing_analysis": timing_result,
+            "analysis_metadata": {
+                "analysis_duration": round(analysis_duration, 3),
+                "api_version": "3.3.0",
+                "feature": "timing_analysis"
+            }
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Timing analysis failed: {str(e)}")
+
+@app.post("/whale-signals")
+async def whale_signals_endpoint(request: WhaleSignalsRequest):
+    """
+    Real-time Whale Signal Detection
+    Detects and analyzes whale activity signals
+    """
+    try:
+        start_time = time.time()
+        
+        # Perform whale signal detection
+        signals_result = await detect_whale_activity(request.contract_address)
+        
+        # Calculate response time
+        analysis_duration = time.time() - start_time
+        
+        return {
+            "whale_signals": signals_result,
+            "signals_count": len(signals_result),
+            "analysis_metadata": {
+                "analysis_duration": round(analysis_duration, 3),
+                "api_version": "3.3.0",
+                "feature": "whale_signals"
+            }
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Whale signal detection failed: {str(e)}")
+
+# ==================== END FLOW PREDICTION ENDPOINTS ====================
 
 # Add CORS middleware for web applications
 from fastapi.middleware.cors import CORSMiddleware
