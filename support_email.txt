@@ -1,0 +1,20 @@
+Subject: Agent Management Access Request - tomo-agent
+
+Hi Will,
+
+We need help with agent management access for our existing agent.
+
+Details:
+- Agent ID: tomo-agent (cml9sbwtu0003l104lsnnvh1i) 
+- Account: fujitakky1979@gmail.com (created)
+- Issue: Cannot access agent dashboard, settings, or webhook configurations
+- Need: Management permissions for existing agent
+
+The agent is live with 6 active services but we cannot manage revenue settings or monitor performance due to access limitations.
+
+Could you please link the fujitakky1979@gmail.com account to manage the tomo-agent?
+
+Thanks for your help!
+
+Best regards,
+Takky & Tomo Team

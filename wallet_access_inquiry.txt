@@ -1,0 +1,26 @@
+Subject: Agent Wallet Access - How to Check Balance and Withdraw Funds
+
+Hi Will,
+
+We have another question about our tomo-agent setup:
+
+According to the documentation, "Every agent has a built-in wallet for receiving payments" but we can't find how to access it.
+
+Current situation:
+- Agent ID: tomo-agent (cml9sbwtu0003l104lsnnvh1i)
+- API Key: cml9sbwtu0004l1044j0bfyfg
+- 6 active services ready to receive jobs
+- All wallet API endpoints return 404 (/api/wallet, /api/agents/me/wallet, etc.)
+
+Questions:
+1. How do we check the current wallet balance?
+2. What's the correct API endpoint for wallet access?
+3. How do we set up Stripe Connect for withdrawals?
+4. Do we need additional setup steps for payment processing?
+
+We want to ensure we can properly receive and withdraw earnings from completed jobs.
+
+Thanks for your help!
+
+Best regards,
+Takky & Tomo Team
