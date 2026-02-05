@@ -240,7 +240,7 @@ def format_analysis_response(analysis_result: Dict[str, Any]) -> Dict[str, Any]:
         
         # Metadata
         "analysis_timestamp": datetime.now().isoformat(),
-        "analysis_duration": analysis_result.get("analysis_duration", 0),
+        "analysis_duration": analysis_result.get("analysis_metadata", {}).get("analysis_duration", 0),
         "api_version": "3.0.0"
     }
     
