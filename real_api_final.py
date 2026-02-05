@@ -100,7 +100,7 @@ async def demo_analysis():
     
     try:
         # Run actual analysis for demo
-        result = await risk_engine.analyze_token_risk(bonk_address)
+        result = await risk_engine.analyze_token_comprehensive(bonk_address)
         
         # Add demo disclaimer
         result["demo_notice"] = "This is real analysis of BONK token as demonstration"
@@ -155,7 +155,7 @@ async def real_analyze_memecoin(request: AnalysisRequest):
             )
         
         # Run comprehensive risk analysis
-        analysis_result = await risk_engine.analyze_token_risk(request.contract_address)
+        analysis_result = await risk_engine.analyze_token_comprehensive(request.contract_address)
         
         if analysis_result["analysis_status"] == "failed":
             raise HTTPException(
