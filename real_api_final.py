@@ -335,9 +335,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Vercel handler
+from mangum import Mangum
+handler = Mangum(app)
+
 if __name__ == "__main__":
     import uvicorn
     print("🚀 Starting Solana Memecoin Risk Analyzer - REAL VERSION")
-    print("📊 Features: Live rugcheck.xyz + DexScreener + AI Risk Analysis")
+    print("📊 Features: Live rugcheck.xyz + DexScreener + AI Risk Analysis") 
     print("💎 Ready for production deployment!")
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

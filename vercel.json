@@ -2,14 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "real_api_final.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "real_api_final.py"
+      "dest": "api/index.py"
     }
-  ]
+  ],
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 30
+    }
+  }
 }
