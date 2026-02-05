@@ -1,4 +1,4 @@
-# 🚀 Solana Memecoin Analyzer API
+# 🚀 Solana Memecoin Analyzer API v3.3.0 - FLOW PREDICTION ENGINE
 
 Professional memecoin risk analysis API with comprehensive security checks and investment recommendations.
 
