@@ -1,0 +1,289 @@
+2026-02-06 07:29:11,744 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:29:11,744 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:29:11,744 - INFO - 📄 Paper Trading: True
+2026-02-06 07:29:11,744 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:29:13,574 - INFO - 📡 Phase 1 Scanner: Detected 0 tokens
+2026-02-06 07:29:17,415 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:29:17,415 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:29:17,415 - INFO - 📄 Paper Trading: True
+2026-02-06 07:29:17,415 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:29:17,415 - INFO - 🚀 STARTING COMPLETE TRADING CYCLE
+2026-02-06 07:29:17,415 - INFO - 📡 Phase 1: Smart Scanner Bot
+2026-02-06 07:29:19,139 - INFO - 📡 Phase 1 Scanner: Detected 0 tokens
+2026-02-06 07:29:19,140 - INFO - 📭 No new tokens detected
+2026-02-06 07:29:47,261 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:29:47,261 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:29:47,261 - INFO - 📄 Paper Trading: True
+2026-02-06 07:29:47,261 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:29:49,326 - INFO - 📡 Phase 1 Scanner: Detected 0 tokens
+2026-02-06 07:30:13,521 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:30:13,521 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:30:13,521 - INFO - 📄 Paper Trading: True
+2026-02-06 07:30:13,521 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:30:13,622 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:30:13,623 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:30:13,623 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:30:13,623 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:30:13,624 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:30:13,624 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:30:13,624 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:30:14,158 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:30:14,160 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:30:14,160 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:30:14,160 - INFO - 📊 PEPE: MC=$3470.38
+2026-02-06 07:30:14,160 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:30:14,161 - INFO - ✅ Adding Pepe (MC=$200517, Age=999.0h)
+2026-02-06 07:30:14,161 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:30:14,161 - INFO - ✅ Adding PEPE (MC=$140586, Age=999.0h)
+2026-02-06 07:30:14,703 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:30:14,704 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:30:14,704 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:30:14,704 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:30:14,705 - INFO - ✅ Adding DOGE (MC=$125614, Age=999.0h)
+2026-02-06 07:30:15,207 - INFO - 📡 Phase 1 Scanner: Detected 0 tokens
+2026-02-06 07:30:32,880 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:30:32,880 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:30:32,880 - INFO - 📄 Paper Trading: True
+2026-02-06 07:30:32,880 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:30:33,091 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:30:33,094 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:30:33,094 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:30:33,094 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:30:33,094 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:30:33,094 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:30:33,095 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:30:33,799 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:30:33,801 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:30:33,802 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:30:33,802 - INFO - 📊 PEPE: MC=$3551.08
+2026-02-06 07:30:33,802 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:30:33,802 - INFO - ✅ Adding Pepe (MC=$200517, Age=14908.9h)
+2026-02-06 07:30:33,802 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:30:33,803 - INFO - ✅ Adding PEPE (MC=$140586, Age=26672.0h)
+2026-02-06 07:30:34,348 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:30:34,350 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:30:34,350 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:30:34,350 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:30:34,350 - INFO - ✅ Adding DOGE (MC=$125614, Age=11148.5h)
+2026-02-06 07:30:34,853 - INFO - 📡 Phase 1 Scanner: Detected 0 tokens
+2026-02-06 07:30:45,250 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:30:45,250 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:30:45,250 - INFO - 📄 Paper Trading: True
+2026-02-06 07:30:45,250 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:30:45,361 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:30:45,362 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:30:45,362 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:30:45,362 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:30:45,362 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:30:45,362 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:30:45,362 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:30:45,920 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:30:45,922 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:30:45,922 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:30:45,922 - INFO - 📊 PEPE: MC=$3551.08
+2026-02-06 07:30:45,922 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:30:45,923 - INFO - ✅ Adding Pepe (MC=$200517, Age=14908.9h)
+2026-02-06 07:30:45,923 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:30:45,923 - INFO - ✅ Adding PEPE (MC=$140586, Age=26672.0h)
+2026-02-06 07:30:46,632 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:30:46,634 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:30:46,634 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:30:46,635 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:30:46,635 - INFO - ✅ Adding DOGE (MC=$125614, Age=11148.5h)
+2026-02-06 07:30:47,138 - INFO - 📡 Phase 1 Scanner: Detected 3 tokens
+2026-02-06 07:30:49,473 - INFO - 🛡️ Phase 2 Risk Filter: 0/3 passed
+2026-02-06 07:31:07,760 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:31:07,760 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:31:07,760 - INFO - 📄 Paper Trading: True
+2026-02-06 07:31:07,760 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:31:07,973 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:31:07,975 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:31:07,976 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:31:07,976 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:31:07,976 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:31:07,976 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:31:07,976 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:31:09,037 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:31:09,040 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:31:09,040 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:31:09,040 - INFO - 📊 PEPE: MC=$3952.66
+2026-02-06 07:31:09,040 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:31:09,040 - INFO - ✅ Adding Pepe (MC=$200517, Age=14908.9h)
+2026-02-06 07:31:09,041 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:31:09,041 - INFO - ✅ Adding PEPE (MC=$140586, Age=26672.0h)
+2026-02-06 07:31:09,597 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:31:09,599 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:31:09,599 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:31:09,599 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:31:09,599 - INFO - ✅ Adding DOGE (MC=$125614, Age=11148.5h)
+2026-02-06 07:31:10,102 - INFO - 📡 Phase 1 Scanner: Detected 3 tokens
+2026-02-06 07:31:10,752 - INFO - 🔍 Risk Analysis Status for Pepe: 200
+2026-02-06 07:31:10,752 - INFO - 📊 Pepe: Risk=21, Rec='AVOID', Liq=$111112.27
+2026-02-06 07:31:10,752 - INFO - ❌ Pepe FAILED: Risk=21, Rec='AVOID', Liq=$111112.27
+2026-02-06 07:31:11,274 - INFO - 🔍 Risk Analysis Status for PEPE: 200
+2026-02-06 07:31:11,275 - INFO - 📊 PEPE: Risk=16, Rec='AVOID', Liq=$64920.5
+2026-02-06 07:31:11,276 - INFO - ❌ PEPE FAILED: Risk=16, Rec='AVOID', Liq=$64920.5
+2026-02-06 07:31:11,784 - INFO - 🔍 Risk Analysis Status for DOGE: 200
+2026-02-06 07:31:11,785 - INFO - 📊 DOGE: Risk=21, Rec='AVOID', Liq=$85451.96
+2026-02-06 07:31:11,785 - INFO - ❌ DOGE FAILED: Risk=21, Rec='AVOID', Liq=$85451.96
+2026-02-06 07:31:12,088 - INFO - 🛡️ Phase 2 Risk Filter: 0/3 passed
+2026-02-06 07:31:25,551 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:31:25,551 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:31:25,551 - INFO - 📄 Paper Trading: True
+2026-02-06 07:31:25,551 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:31:25,673 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:31:25,674 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:31:25,674 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:31:25,674 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:31:25,674 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:31:25,674 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:31:25,674 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:31:26,220 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:31:26,223 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:31:26,223 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:31:26,223 - INFO - 📊 PEPE: MC=$3952.66
+2026-02-06 07:31:26,223 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:31:26,223 - INFO - ✅ Adding Pepe (MC=$200517, Age=14908.9h)
+2026-02-06 07:31:26,223 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:31:26,223 - INFO - ✅ Adding PEPE (MC=$140586, Age=26672.0h)
+2026-02-06 07:31:26,928 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:31:26,929 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:31:26,930 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:31:26,930 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:31:26,930 - INFO - ✅ Adding DOGE (MC=$125614, Age=11148.5h)
+2026-02-06 07:31:27,433 - INFO - 📡 Phase 1 Scanner: Detected 3 tokens
+2026-02-06 07:31:27,717 - INFO - 🔍 Risk Analysis Status for Pepe: 200
+2026-02-06 07:31:27,718 - INFO - 📊 Pepe: Risk=21, Rec='AVOID', Liq=$111112.27
+2026-02-06 07:31:27,718 - INFO - ✅ Pepe PASSED risk filter
+2026-02-06 07:31:28,261 - INFO - 🔍 Risk Analysis Status for PEPE: 200
+2026-02-06 07:31:28,262 - INFO - 📊 PEPE: Risk=16, Rec='AVOID', Liq=$64920.5
+2026-02-06 07:31:28,263 - INFO - ✅ PEPE PASSED risk filter
+2026-02-06 07:31:28,878 - INFO - 🔍 Risk Analysis Status for DOGE: 200
+2026-02-06 07:31:28,878 - INFO - 📊 DOGE: Risk=21, Rec='AVOID', Liq=$85451.96
+2026-02-06 07:31:28,878 - INFO - ✅ DOGE PASSED risk filter
+2026-02-06 07:31:29,181 - INFO - 🛡️ Phase 2 Risk Filter: 3/3 passed
+2026-02-06 07:31:31,843 - INFO - 🧠 Phase 3 Smart Money: Enhanced 0 tokens
+2026-02-06 07:31:31,843 - INFO - ⚡ Phase 4 Trading Logic: Generated 0 signals
+2026-02-06 07:31:52,554 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:31:52,554 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:31:52,554 - INFO - 📄 Paper Trading: True
+2026-02-06 07:31:52,554 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:31:52,758 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:31:52,760 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:31:52,760 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:31:52,760 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:31:52,760 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:31:52,760 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:31:52,760 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:31:53,304 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:31:53,307 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:31:53,307 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:31:53,307 - INFO - 📊 PEPE: MC=$3764.29
+2026-02-06 07:31:53,307 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:31:53,308 - INFO - ✅ Adding Pepe (MC=$200517, Age=14908.9h)
+2026-02-06 07:31:53,308 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:31:53,308 - INFO - ✅ Adding PEPE (MC=$140586, Age=26672.0h)
+2026-02-06 07:31:53,856 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:31:53,860 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:31:53,861 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:31:53,861 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:31:53,861 - INFO - ✅ Adding DOGE (MC=$125614, Age=11148.5h)
+2026-02-06 07:31:54,364 - INFO - 📡 Phase 1 Scanner: Detected 3 tokens
+2026-02-06 07:31:54,699 - INFO - 🔍 Risk Analysis Status for Pepe: 200
+2026-02-06 07:31:54,700 - INFO - 📊 Pepe: Risk=21, Rec='AVOID', Liq=$111112.27
+2026-02-06 07:31:54,700 - INFO - ✅ Pepe PASSED risk filter
+2026-02-06 07:31:55,602 - INFO - 🔍 Risk Analysis Status for PEPE: 200
+2026-02-06 07:31:55,603 - INFO - 📊 PEPE: Risk=16, Rec='AVOID', Liq=$64920.5
+2026-02-06 07:31:55,603 - INFO - ✅ PEPE PASSED risk filter
+2026-02-06 07:31:56,129 - INFO - 🔍 Risk Analysis Status for DOGE: 200
+2026-02-06 07:31:56,130 - INFO - 📊 DOGE: Risk=21, Rec='AVOID', Liq=$85451.96
+2026-02-06 07:31:56,130 - INFO - ✅ DOGE PASSED risk filter
+2026-02-06 07:31:56,433 - INFO - 🛡️ Phase 2 Risk Filter: 3/3 passed
+2026-02-06 07:31:56,935 - INFO - 🧠 Smart Money Status for Pepe: 200
+2026-02-06 07:31:56,936 - INFO - 🧠 Pepe: Score=26, Conf='low', Flow=0
+2026-02-06 07:31:56,936 - INFO - ✅ Pepe PASSED smart money filter
+2026-02-06 07:31:57,650 - INFO - 🧠 Smart Money Status for PEPE: 200
+2026-02-06 07:31:57,650 - INFO - 🧠 PEPE: Score=26, Conf='low', Flow=0
+2026-02-06 07:31:57,650 - INFO - ✅ PEPE PASSED smart money filter
+2026-02-06 07:31:58,471 - INFO - 🧠 Smart Money Status for DOGE: 200
+2026-02-06 07:31:58,472 - INFO - 🧠 DOGE: Score=26, Conf='low', Flow=0
+2026-02-06 07:31:58,472 - INFO - ✅ DOGE PASSED smart money filter
+2026-02-06 07:31:58,775 - INFO - 🧠 Phase 3 Smart Money: Enhanced 3 tokens
+2026-02-06 07:31:58,776 - INFO - ⚡ Phase 4 Trading Logic: Generated 3 signals
+2026-02-06 07:32:09,176 - INFO - 🚀 Execution Engine Initialized
+2026-02-06 07:32:09,176 - INFO - 💰 Initial Balance: $10,000.00
+2026-02-06 07:32:09,176 - INFO - 📄 Paper Trading: True
+2026-02-06 07:32:09,176 - INFO - ⚠️ Max Position Size: 5.0%
+2026-02-06 07:32:09,176 - INFO - 🚀 STARTING COMPLETE TRADING CYCLE
+2026-02-06 07:32:09,176 - INFO - 📡 Phase 1: Smart Scanner Bot
+2026-02-06 07:32:09,277 - INFO - 📡 Searching 'meme' - Status: 200
+2026-02-06 07:32:09,278 - INFO - 📡 Found 30 pairs for 'meme'
+2026-02-06 07:32:09,278 - INFO - 📡 Solana pairs for 'meme': 4
+2026-02-06 07:32:09,278 - INFO - 📊 MEME: MC=$49899222
+2026-02-06 07:32:09,278 - INFO - 📊 MEME: MC=$278114310
+2026-02-06 07:32:09,278 - INFO - 📊 MEME: MC=$162156802
+2026-02-06 07:32:09,278 - INFO - 📊 MEME: MC=$150652269
+2026-02-06 07:32:09,819 - INFO - 📡 Searching 'pepe' - Status: 200
+2026-02-06 07:32:09,821 - INFO - 📡 Found 30 pairs for 'pepe'
+2026-02-06 07:32:09,821 - INFO - 📡 Solana pairs for 'pepe': 3
+2026-02-06 07:32:09,821 - INFO - 📊 PEPE: MC=$3764.29
+2026-02-06 07:32:09,821 - INFO - 📊 Pepe: MC=$200517
+2026-02-06 07:32:09,821 - INFO - ✅ Adding Pepe (MC=$200517, Age=14908.9h)
+2026-02-06 07:32:09,821 - INFO - 📊 PEPE: MC=$140586
+2026-02-06 07:32:09,821 - INFO - ✅ Adding PEPE (MC=$140586, Age=26672.0h)
+2026-02-06 07:32:10,361 - INFO - 📡 Searching 'doge' - Status: 200
+2026-02-06 07:32:10,362 - INFO - 📡 Found 30 pairs for 'doge'
+2026-02-06 07:32:10,362 - INFO - 📡 Solana pairs for 'doge': 1
+2026-02-06 07:32:10,363 - INFO - 📊 DOGE: MC=$125614
+2026-02-06 07:32:10,363 - INFO - ✅ Adding DOGE (MC=$125614, Age=11148.5h)
+2026-02-06 07:32:10,866 - INFO - 📡 Phase 1 Scanner: Detected 3 tokens
+2026-02-06 07:32:10,866 - INFO - 🛡️ Phase 2: Risk Filter System
+2026-02-06 07:32:11,180 - INFO - 🔍 Risk Analysis Status for Pepe: 200
+2026-02-06 07:32:11,181 - INFO - 📊 Pepe: Risk=21, Rec='AVOID', Liq=$111112.27
+2026-02-06 07:32:11,181 - INFO - ✅ Pepe PASSED risk filter
+2026-02-06 07:32:11,989 - INFO - 🔍 Risk Analysis Status for PEPE: 200
+2026-02-06 07:32:11,989 - INFO - 📊 PEPE: Risk=16, Rec='AVOID', Liq=$64920.5
+2026-02-06 07:32:11,989 - INFO - ✅ PEPE PASSED risk filter
+2026-02-06 07:32:12,909 - INFO - 🔍 Risk Analysis Status for DOGE: 200
+2026-02-06 07:32:12,910 - INFO - 📊 DOGE: Risk=21, Rec='AVOID', Liq=$85451.96
+2026-02-06 07:32:12,910 - INFO - ✅ DOGE PASSED risk filter
+2026-02-06 07:32:13,213 - INFO - 🛡️ Phase 2 Risk Filter: 3/3 passed
+2026-02-06 07:32:13,214 - INFO - 🧠 Phase 3: Smart Money Integration
+2026-02-06 07:32:13,728 - INFO - 🧠 Smart Money Status for Pepe: 200
+2026-02-06 07:32:13,729 - INFO - 🧠 Pepe: Score=26, Conf='low', Flow=0
+2026-02-06 07:32:13,729 - INFO - ✅ Pepe PASSED smart money filter
+2026-02-06 07:32:14,417 - INFO - 🧠 Smart Money Status for PEPE: 200
+2026-02-06 07:32:14,417 - INFO - 🧠 PEPE: Score=26, Conf='low', Flow=0
+2026-02-06 07:32:14,417 - INFO - ✅ PEPE PASSED smart money filter
+2026-02-06 07:32:15,165 - INFO - 🧠 Smart Money Status for DOGE: 200
+2026-02-06 07:32:15,166 - INFO - 🧠 DOGE: Score=26, Conf='low', Flow=0
+2026-02-06 07:32:15,166 - INFO - ✅ DOGE PASSED smart money filter
+2026-02-06 07:32:15,469 - INFO - 🧠 Phase 3 Smart Money: Enhanced 3 tokens
+2026-02-06 07:32:15,469 - INFO - ⚡ Phase 4: Trading Logic Engine
+2026-02-06 07:32:15,470 - INFO - ⚡ Phase 4 Trading Logic: Generated 3 signals
+2026-02-06 07:32:15,470 - INFO - 💸 Phase 5: Trade Execution
+2026-02-06 07:32:15,651 - INFO - 📈 BUY EXECUTED (PAPER): PEPE
+2026-02-06 07:32:15,651 - INFO -    💰 Size: $400.00 (4.0%)
+2026-02-06 07:32:15,651 - INFO -    📊 Price: $0.000220
+2026-02-06 07:32:15,651 - INFO -    🎯 Target: $0.000396 (+80.0%)
+2026-02-06 07:32:15,651 - INFO -    🛑 Stop: $0.000180 (-18.0%)
+2026-02-06 07:32:15,651 - INFO -    🧠 Confidence: 89.0%
+2026-02-06 07:32:17,092 - INFO - 📈 BUY EXECUTED (PAPER): Pepe
+2026-02-06 07:32:17,093 - INFO -    💰 Size: $384.00 (4.0%)
+2026-02-06 07:32:17,093 - INFO -    📊 Price: $0.000201
+2026-02-06 07:32:17,093 - INFO -    🎯 Target: $0.000361 (+80.0%)
+2026-02-06 07:32:17,093 - INFO -    🛑 Stop: $0.000164 (-18.0%)
+2026-02-06 07:32:17,093 - INFO -    🧠 Confidence: 84.0%
+2026-02-06 07:32:18,756 - INFO - 📈 BUY EXECUTED (PAPER): DOGE
+2026-02-06 07:32:18,757 - INFO -    💰 Size: $368.64 (4.0%)
+2026-02-06 07:32:18,757 - INFO -    📊 Price: $0.012680
+2026-02-06 07:32:18,757 - INFO -    🎯 Target: $0.022824 (+80.0%)
+2026-02-06 07:32:18,757 - INFO -    🛑 Stop: $0.010398 (-18.0%)
+2026-02-06 07:32:18,757 - INFO -    🧠 Confidence: 84.0%
+2026-02-06 07:32:19,758 - INFO - ✅ Cycle Complete: 3 trades executed
+2026-02-06 07:32:20,724 - INFO - 💼 Positions Updated: 3 open, Total PnL: $0.00
+2026-02-06 07:32:20,727 - INFO - 💼 Portfolio Status:
+2026-02-06 07:32:20,727 - INFO -    💰 Total Value: $10000.00
+2026-02-06 07:32:20,727 - INFO -    📈 Total P&L: $0.00
+2026-02-06 07:32:20,727 - INFO -    🏆 Win Rate: 0.0%
+2026-02-06 07:32:20,727 - INFO -    📊 Open Positions: 3

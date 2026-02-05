@@ -1,0 +1,345 @@
+{
+  "contract_address": "So11111111111111111111111111111111111111112",
+  "timestamp": "2026-02-06T07:21:04.713494",
+  "processing_time": 1.49,
+  "market_conditions": {
+    "overall_sentiment": "UNCERTAIN",
+    "volatility_level": "LOW",
+    "liquidity_condition": "POOR",
+    "whale_activity": "NEUTRAL"
+  },
+  "trading_decision": {
+    "signal": "TradingSignal.BUY",
+    "confidence": 0.7869999999999999,
+    "position_size": 0.021106800000000002,
+    "entry_price": 1.0,
+    "stop_loss": 0.8512,
+    "take_profit": 1.392832,
+    "reasoning": "Good confidence (0.79) + Acceptable risk (36)",
+    "risk_factors": [
+      "Poor liquidity conditions"
+    ],
+    "expected_return": 0.428,
+    "holding_period": "MEDIUM"
+  },
+  "raw_analysis": {
+    "base_analysis": {
+      "contract_address": "So11111111111111111111111111111111111111112",
+      "analysis_status": "completed",
+      "risk_score": 36,
+      "risk_level": "MEDIUM",
+      "confidence_score": 0.823,
+      "liquidity_info": {
+        "risk_score": 31.5,
+        "max_score": 35,
+        "details": [
+          "\u2705 Good liquidity: $21.5M",
+          "\ud83d\udea8 Extremely low liquidity ratio: 0.00%"
+        ],
+        "confidence": 0.9
+      },
+      "holder_analysis": {
+        "concentration_risk": 0,
+        "max_score": 25,
+        "details": [
+          "\u2705 Good transaction count: 174296",
+          "\u2705 Balanced trading: 47.4% buys"
+        ],
+        "confidence": 0.6
+      },
+      "security_flags": [
+        "\u2705 Good liquidity: $21.5M",
+        "\ud83d\udea8 Extremely low liquidity ratio: 0.00%",
+        "\u2705 Good transaction count: 174296",
+        "\u2705 Balanced trading: 47.4% buys",
+        "\u2705 Mature token: 31.7 months - Low age risk",
+        "\ud83d\udea8 Dead token: 0.00% volume/mcap ratio",
+        "\u2705 Low volatility: -13.7% (24h)"
+      ],
+      "market_data": {
+        "age_analysis": {
+          "risk_score": 2.0,
+          "details": [
+            "\u2705 Mature token: 31.7 months - Low age risk"
+          ]
+        },
+        "trading_activity": {
+          "risk_score": 15,
+          "details": [
+            "\ud83d\udea8 Dead token: 0.00% volume/mcap ratio"
+          ]
+        },
+        "price_volatility": {
+          "risk_score": 0.5,
+          "details": [
+            "\u2705 Low volatility: -13.7% (24h)"
+          ]
+        }
+      },
+      "recommendations": [],
+      "warnings": [],
+      "investment_guidance": {
+        "risk_assessment": {
+          "overall_risk": "MEDIUM",
+          "risk_score": "36/100",
+          "risk_factors_count": 4
+        },
+        "position_sizing": {
+          "recommended_allocation": "1-3% of portfolio",
+          "maximum_allocation": "3% absolute maximum",
+          "rationale": "Multiple risk factors present: liquidity_risk, market_activity"
+        },
+        "entry_strategy": {
+          "approach": "Consider dollar-cost averaging over 2-3 entries",
+          "timing": "Standard timing considerations apply",
+          "execution": "Standard market orders acceptable for reasonable position sizes"
+        },
+        "risk_management": {
+          "stop_loss": "10-20% stop loss recommended",
+          "take_profit": "Take profits at 30-75% gains",
+          "monitoring": [
+            "Monitor liquidity levels and exit capacity",
+            "Watch for early development milestones",
+            "Track trading volume sustainability",
+            "Track price action and volatility patterns"
+          ]
+        },
+        "market_context": {
+          "liquidity_assessment": "excellent",
+          "age_assessment": "mature",
+          "activity_assessment": "dead"
+        }
+      },
+      "risk_factors": {
+        "liquidity_risk": {
+          "score": 31.5,
+          "max_score": 35,
+          "confidence": 0.9,
+          "details": [
+            "\u2705 Good liquidity: $21.5M",
+            "\ud83d\udea8 Extremely low liquidity ratio: 0.00%"
+          ],
+          "category": "liquidity_safety",
+          "severity": "critical"
+        },
+        "holder_concentration": {
+          "score": 0,
+          "max_score": 25,
+          "confidence": 0.6,
+          "details": [
+            "\u2705 Good transaction count: 174296",
+            "\u2705 Balanced trading: 47.4% buys"
+          ],
+          "category": "holder_distribution",
+          "estimation_note": "Based on trading patterns - not direct holder data"
+        },
+        "age_risk": {
+          "score": 2.0,
+          "max_score": 20,
+          "confidence": 0.95,
+          "details": [
+            "\u2705 Mature token: 31.7 months - Low age risk"
+          ],
+          "category": "token_maturity"
+        },
+        "market_activity": {
+          "score": 15,
+          "max_score": 15,
+          "confidence": 0.85,
+          "details": [
+            "\ud83d\udea8 Dead token: 0.00% volume/mcap ratio"
+          ],
+          "category": "trading_health"
+        },
+        "price_volatility": {
+          "score": 0.5,
+          "max_score": 5,
+          "confidence": 0.8,
+          "details": [
+            "\u2705 Low volatility: -13.7% (24h)"
+          ],
+          "category": "price_stability"
+        },
+        "contract_address": "So11111111111111111111111111111111111111112"
+      },
+      "data_sources": [
+        "dexscreener.com"
+      ],
+      "analysis_timestamp": "2026-02-05T22:21:03.701372",
+      "analysis_duration": 0.05,
+      "api_version": "3.1.0",
+      "smart_money_analysis": {
+        "contract_address": "So11111111111111111111111111111111111111112",
+        "analysis_status": "completed",
+        "smart_money_score": 44,
+        "whale_activity": {
+          "total_whales": 4,
+          "net_flow_usd": 34202023.4392,
+          "largest_position": 50000,
+          "activity_level": "medium",
+          "whale_breakdown": {
+            "mega_whales": 0,
+            "whales": 1,
+            "sharks": 2,
+            "dolphins": 1
+          },
+          "recent_entries": 2,
+          "recent_exits": 1,
+          "avg_position_size": 17101011.7196,
+          "whale_conviction": "cautious_bullish"
+        },
+        "whale_movements": [
+          {
+            "wallet_address": "8sLbNZoA1cfnvMJLPfp98ZLAnFSYCFApfJKMbiXNLwxj",
+            "whale_tier": "whale",
+            "action": "buy",
+            "estimated_amount_usd": 500000.0,
+            "time_estimate": "6 hours ago",
+            "confidence": 0.91,
+            "significance": "large"
+          },
+          {
+            "wallet_address": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+            "whale_tier": "whale",
+            "action": "buy",
+            "estimated_amount_usd": 500000.0,
+            "time_estimate": "8 hours ago",
+            "confidence": 0.91,
+            "significance": "large"
+          },
+          {
+            "wallet_address": "4iwvfv5aBk5b4mGG2eL9NrWxc3jEdqhVh7wH7KmN7Pvm",
+            "whale_tier": "whale",
+            "action": "hold",
+            "estimated_amount_usd": 500000.0,
+            "time_estimate": "24 hours ago",
+            "confidence": 0.91,
+            "significance": "large"
+          },
+          {
+            "wallet_address": "AzNk5p9vTWjvjBSs9vVLHU5kXjKxfDx1a3vqFh8a2Jxm",
+            "whale_tier": "shark",
+            "action": "hold",
+            "estimated_amount_usd": 100000.0,
+            "time_estimate": "30 hours ago",
+            "confidence": 0.81,
+            "significance": "large"
+          }
+        ],
+        "narrative_signals": [
+          {
+            "narrative": "smart_money_accumulation",
+            "strength": 48,
+            "matched_keywords": [
+              "whale_interest",
+              "smart_money"
+            ],
+            "market_relevance": "very_high"
+          }
+        ],
+        "smart_alerts": [],
+        "confidence_score": 0.7,
+        "tracking_metadata": {
+          "lookback_hours": 24,
+          "tracked_wallets": 18,
+          "analysis_timestamp": 1770330063.7013865,
+          "analysis_duration": 0.22,
+          "data_sources": [
+            "dexscreener",
+            "whale_database"
+          ]
+        }
+      }
+    },
+    "smart_money_analysis": {
+      "contract_address": "So11111111111111111111111111111111111111112",
+      "analysis_status": "completed",
+      "smart_money_score": 44,
+      "whale_activity": {
+        "total_whales": 4,
+        "net_flow_usd": 34202023.4392,
+        "largest_position": 50000,
+        "activity_level": "medium",
+        "whale_breakdown": {
+          "mega_whales": 0,
+          "whales": 1,
+          "sharks": 2,
+          "dolphins": 1
+        },
+        "recent_entries": 2,
+        "recent_exits": 1,
+        "avg_position_size": 17101011.7196,
+        "whale_conviction": "cautious_bullish"
+      },
+      "whale_movements": [
+        {
+          "wallet_address": "8sLbNZoA1cfnvMJLPfp98ZLAnFSYCFApfJKMbiXNLwxj",
+          "whale_tier": "whale",
+          "action": "buy",
+          "estimated_amount_usd": 500000.0,
+          "time_estimate": "6 hours ago",
+          "confidence": 0.91,
+          "significance": "large"
+        },
+        {
+          "wallet_address": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+          "whale_tier": "whale",
+          "action": "buy",
+          "estimated_amount_usd": 500000.0,
+          "time_estimate": "8 hours ago",
+          "confidence": 0.91,
+          "significance": "large"
+        },
+        {
+          "wallet_address": "4iwvfv5aBk5b4mGG2eL9NrWxc3jEdqhVh7wH7KmN7Pvm",
+          "whale_tier": "whale",
+          "action": "hold",
+          "estimated_amount_usd": 500000.0,
+          "time_estimate": "24 hours ago",
+          "confidence": 0.91,
+          "significance": "large"
+        },
+        {
+          "wallet_address": "AzNk5p9vTWjvjBSs9vVLHU5kXjKxfDx1a3vqFh8a2Jxm",
+          "whale_tier": "shark",
+          "action": "hold",
+          "estimated_amount_usd": 100000.0,
+          "time_estimate": "30 hours ago",
+          "confidence": 0.81,
+          "significance": "large"
+        }
+      ],
+      "narrative_signals": [
+        {
+          "narrative": "smart_money_accumulation",
+          "strength": 48,
+          "matched_keywords": [
+            "whale_interest",
+            "smart_money"
+          ],
+          "market_relevance": "very_high"
+        }
+      ],
+      "smart_alerts": [],
+      "confidence_score": 0.7,
+      "tracking_metadata": {
+        "lookback_hours": 24,
+        "tracked_wallets": 18,
+        "analysis_timestamp": 1770330064.1411912,
+        "analysis_duration": 0.27,
+        "data_sources": [
+          "dexscreener",
+          "whale_database"
+        ]
+      },
+      "api_version": "3.1.0",
+      "total_response_time": 0.27
+    },
+    "flow_analysis": {
+      "detail": "Not Found"
+    },
+    "timestamp": "2026-02-06T07:21:04.713326"
+  },
+  "engine_version": "1.0",
+  "status": "completed"
+}
