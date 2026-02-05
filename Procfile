@@ -1,1 +1,1 @@
-web: uvicorn real_api_final:app --host=0.0.0.0 --port=${PORT:-5000}
+web: gunicorn toku_webhook_handler:app --bind 0.0.0.0:$PORT
