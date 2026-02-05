@@ -1,0 +1,42 @@
+# Personal/Workspace files
+MEMORY.md
+USER.md
+SOUL.md
+IDENTITY.md
+AGENTS.md
+TOOLS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+memory/
+SESSION_HANDOFF.md
+
+# Development files
+solana_api.py
+auto_revenue_system.md
+marketing_strategy.md
+freelancer_*
+twitter_*
+sales_*
+sample_*
+clawtasks-*
+toku-agency-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
