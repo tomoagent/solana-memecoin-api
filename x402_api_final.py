@@ -36,7 +36,7 @@ except ImportError as e:
 app = FastAPI(
     title="🚀 TOMO x402 API - AI-POWERED SOLANA ANALYSIS 🚀",
     description="🔥 DIRECT USDC PAYMENTS: Professional Solana Analysis for AI Agents - Pay $0.50-$2.00 in USDC per request 🔥",
-    version="4.0.0-X402-ENABLED"
+    version="4.0.0-X402-ENABLED-DEPLOY"
 )
 
 # Initialize x402 payment system
